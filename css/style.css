@@ -1,0 +1,47 @@
+html{
+    background-image: url(../src/img/back.jpg);
+    background-size: cover ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+}
+body {
+    display: table;
+	height: 100%;
+    margin: 0; 
+    padding: 0;
+    width: 100%;
+    
+}
+
+
+nav{
+    background-color: rgba(34, 33, 33, 0.609);
+}
+
+footer{
+    display: table-row;
+    height: 1px;
+    background-color: rgba(34, 33, 33, 0.609);
+    color: honeydew;
+}
+
+#erreur{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: large;
+    
+}
+#yeah{
+    display: flex;
+    justify-content: center;
+    color: rgb(13, 163, 13);
+    font-size: large;
+    
+}
